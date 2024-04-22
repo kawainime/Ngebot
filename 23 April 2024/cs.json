@@ -1,0 +1,1459 @@
+{
+    "backdoors": [
+        {
+            "path": "/defaults.php",
+            "expected_string": "<input type=\"submit\" name=\"submit\" value=\"submit\">",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/mah.php",
+            "expected_string": "<input type=\"submit\" name=\"submit\" value=\"submit\">",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/install.php",
+            "expected_string": "<input type=\"submit\" name=\"submit\" value=\"submit\">",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/uploads/wpr-addons/forms/b1ack.php",
+            "expected_string": "<input type=\"submit\" name=\"submit\" value=\"submit\">",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/uploads/wpr-addons/forms/b1ack.php",
+            "expected_string": "<input type=\"submit\" name=\"submit\" value=\"submit\">",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/about.php?p=",
+            "expected_string": "<title>000</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/chosen.php?p=",
+            "expected_string": "<title>000</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/about.php",
+            "expected_string": "<font color=\"#00ff00\">drwxrwxr-x                                </font>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/leafmailer2.8.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/leaf.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/lf.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/leafmailer.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-conetnt/leaf.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/leaf.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/leafmailer2.8.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/leafmailer2.8.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/mailer.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/leaf-mailer.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/send.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/sender.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/alexus.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/uploads/fw.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/m.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/alexus-mailer.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/mail.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/inbox.php",
+            "expected_string": "Leaf PHPMailer</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/index.php",
+            "expected_string": "<title>L I E R SHELL</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/inputs.php",
+            "expected_string": "<span>Upload file:</span>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/WordPressCore/",
+            "expected_string": "vu<title>Webshell</title>lncode",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/index.php",
+            "expected_string": "<button type=\"button\" onclick=\"submitForm()\">Go</button>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/index.php",
+            "expected_string": "<center><br>Spamworldpro Mini</center>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/dummyyummy/wp-signup.php",
+            "expected_string": "<title>Simple Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/pwnd/pwnd.php",
+            "expected_string": "<input name=\"_upl\" type=\"submit\" id=\"_upl\" value=\"Upload\">",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/Requests/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/blogs.dir/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/blocks/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/SimplePie/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/gallery/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/images/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/pki-validation/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/rest-api/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/style-engine/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/ID3/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/css/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cgi-bin/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/includes/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/images/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/block-patterns/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/pomo/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/updraft/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/upgrade-temp-backup/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/banners/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/IXR/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/js/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/languages/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/customize/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/widgets/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/img/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/Text/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes.bak/html-api/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/Requests/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/blogs.dir/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/blocks/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/SimplePie/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/gallery/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/images/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/pki-validation/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/rest-api/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/style-engine/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/ID3/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/css/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cgi-bin/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/includes/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/images/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/block-patterns/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/pomo/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/updraft/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/upgrade-temp-backup/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/banners/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/IXR/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/js/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/languages/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/customize/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/widgets/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/img/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/Text/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes.bak/html-api/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/Requests/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/blogs.dir/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/blocks/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/SimplePie/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/gallery/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/images/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/pki-validation/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/rest-api/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/style-engine/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/ID3/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/css/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cgi-bin/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/includes/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/images/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/block-patterns/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/pomo/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/updraft/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/upgrade-temp-backup/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/banners/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/IXR/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/js/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/languages/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/customize/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/widgets/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/img/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/Text/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes.bak/html-api/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/seotheme/db.php?u",
+            "expected_string": "#0x2525",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/pridmag/db.php?u",
+            "expected_string": "#0x2525",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/linkpreview/db.php?u",
+            "expected_string": "#0x2525",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/gaukingo/db.php?u",
+            "expected_string": "#0x2525",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/seoplugins/db.php?u",
+            "expected_string": "#0x2525",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/themes.php",
+            "expected_string": "SEA-GHOST MINSHELL",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/js/themes.php",
+            "expected_string": "SEA-GHOST MINSHELL",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/pomo/themes.php",
+            "expected_string": "SEA-GHOST MINSHELL",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes.php",
+            "expected_string": "SEA-GHOST MINSHELL",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/css/themes.php",
+            "expected_string": "SEA-GHOST MINSHELL",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/js/themes.php",
+            "expected_string": "SEA-GHOST MINSHELL",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/rest-api/themes.php",
+            "expected_string": "SEA-GHOST MINSHELL",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/maint/themes.php",
+            "expected_string": "SEA-GHOST MINSHELL",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/Requests/themes.php",
+            "expected_string": "SEA-GHOST MINSHELL",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/fonts/themes.php",
+            "expected_string": "SEA-GHOST MINSHELL",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/avaa.php",
+            "expected_string": "[ Avaa Bypassed ]",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/xmrlpc.php?p",
+            "expected_string": "Tiny File Manager",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/css/wp-login.php",
+            "expected_string": "<span>Upload file:</span>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/ID3/about.php",
+            "expected_string": "<span>Upload file:</span>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/shell20211028.php",
+            "expected_string": "<span>Upload file:</span>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/Cache/Cache.php",
+            "expected_string": "<span>Upload file:</span>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/wp-login.php",
+            "expected_string": "<span>Upload file:</span>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/languages/wp-login.php",
+            "expected_string": "<span>Upload file:</span>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cong.php",
+            "expected_string": "<small>Copyright © 2021 - Haxor Clan</small>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-login.php",
+            "expected_string": "<span>Upload file:</span>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/about.php",
+            "expected_string": "<title>#shwty</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wso-x569.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/js/500.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/SimplePie/about.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/chosen.php",
+            "expected_string": "<title>000</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/dropdown.php",
+            "expected_string": "<div class='text-light my-1'>© ULTRA</div>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-head.php",
+            "expected_string": "BlackDragon",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/radio.php",
+            "expected_string": "BlackDragon",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/simple.php",
+            "expected_string": "BlackDragon",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cong.php",
+            "expected_string": "BlackDragon",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/repeater.php",
+            "expected_string": "BlackDragon",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/acme-challenge/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/pki-validation/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/images/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/css/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/css/colors/blue/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/includes/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/maint/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/languages/themes/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/atomlib.php",
+            "expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/class.api.php",
+            "expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>\">",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/wp-help/admin/wp-fclass.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/wp-help/index.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/travel/issue.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/updraft/themes.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/intense/block-css.php?mode=upload",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/hideo/network.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/sitemaps/providers/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/css/colors/coffee/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cgi-bin/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/IXR/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/acme-challenge/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/images/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/php-compat/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/maint/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/ID3/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/includes/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/pki-validation/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/customize/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/network/mariju.php",
+            "expected_string": "<title>MARIJUANA</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/travel/issue.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/shellname.php",
+            "expected_string": "vulncode",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/install.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/dropdown.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/simple.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/shellname.php",
+            "expected_string": "<title>||TINY SHELL ||</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/maint/users.php",
+            "expected_string": "<title>||TINY SHELL ||</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/css/colors/ectoplasm/users.php",
+            "expected_string": "<title>||TINY SHELL ||</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/js/widgets/users.php",
+            "expected_string": "<title>||TINY SHELL ||</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/users.php",
+            "expected_string": "<title>||TINY SHELL ||</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/user/users.php",
+            "expected_string": "<title>||TINY SHELL ||</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cgi-bin/users.php",
+            "expected_string": "<title>||TINY SHELL ||</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/users.php",
+            "expected_string": "<title>||TINY SHELL ||</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/shellname.php",
+            "expected_string": "vulncode",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/chtmlfuns.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/classfuns.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/onclickfuns.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/hinfofuns.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/userfuns.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/SimplePie/about.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/SimplePie/plugins.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/SimplePie/index.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/SimplePie/plugins.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/SimplePie/file.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/certificates/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/user/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/acme-challenge/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/customize/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/SimplePie/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/css/colors/blue/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/ID3/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/css/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/includes/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/network/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/maint/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/upgrade/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/images/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/css/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/fonts/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/pomo/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.tmb/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/IXR/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/pki-validation/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cgi-bin/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/random_compat/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/languages/plugins.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/shellname.php",
+            "expected_string": "vulncode",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cgi-bin/class_api.php",
+            "expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/class.api.php",
+            "expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/js/widgets/class.api.php",
+            "expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/pki-validation/class_api.php",
+            "expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/class_api.php",
+            "expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/class.api.php",
+            "expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/shellname.php",
+            "expected_string": "vulncode",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/my1.php",
+            "expected_string": "method= \"post\" action= \"\"> <input type=\"input\" name =\"f_p\" value= \"\"/><input type= \"submit\" value= \">&gt;\" ]",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/Requests/Cookie/my1.php",
+            "expected_string": "method= \"post\" action= \"\"> <input type=\"input\" name =\"f_p\" value= \"\"/><input type= \"submit\" value= \">&gt;\" ]",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/my1.php",
+            "expected_string": "method= \"post\" action= \"\"> <input type=\"input\" name =\"f_p\" value= \"\"/><input type= \"submit\" value= \">&gt;\" ]",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cgi-bin/my1.php",
+            "expected_string": "method= \"post\" action= \"\"> <input type=\"input\" name =\"f_p\" value= \"\"/><input type= \"submit\" value= \">&gt;\" ]",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/acme-challenge/my1.php",
+            "expected_string": "method= \"post\" action= \"\"> <input type=\"input\" name =\"f_p\" value= \"\"/><input type= \"submit\" value= \">&gt;\" ]",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/shellname.php",
+            "expected_string": "vulncode",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/images/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.tmb/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/.well-known/acme-challenge/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/cgi-bin/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/user/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/upgrade/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/js/widgets/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/maint/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/ID3/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/certificates/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/includes/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-includes/IXR/moon.php",
+            "expected_string": "<title>Gel4y Mini Shell</title>",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/simple.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/core/include.php?x=zourt",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/themes/travel/issue.php?x=zourt",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/plugins/Cache/Cache.php?x=zourt",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/index.php?x=ooo",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/gel4y.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/index.php?x=ooo",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/gecko.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/content.php",
+            "expected_string": "Uname:",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/about.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/install.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/dropdown.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/chosen.php?p=",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/mah.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/about.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/about.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/install.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-admin/js/about.php7",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        },
+        {
+            "path": "/wp-content/install.php",
+            "expected_string": "-rw-r--r--",
+            "vuln_name": "@exploitsdotcs"
+        }
+    ]
+}
