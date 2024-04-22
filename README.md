@@ -1,28 +1,17 @@
-## NGEBOT TOOLS
-  ![TOKO RootSec BOT](https://github.com/kawainime/Ngebot/assets/147604824/b4d1e936-e01e-412d-9cd2-0c8ce6d2f333)
-- List Tools :
-  ------------------
-         [1] Grabber Sites COM By Dates Updated Daily Result 
-         [2] Grabber Sites By Domain + Country  
-         [3] Grabber Sites UK From Page 
-         [4] Grabber Option 2 + Option Number 10 + Option Number 19  + Auto Check + Save Live & Good IPs 
-         [5] Grabber By Years/Date/Month 
-         [6] Grab Mail/Email From Website List / Ip List + Auto Filter 
-         [7] Zoomeye Grabber With Query/Dork And API   
-         [8] Leakix Grabber With Query/Dork And API  
-         [9]  Range IP From IPS List  
-         [10] Domain To IP  
-         [11] Option Number 9 + Option Number 10 Auto 
-         [12] ASN IPs Grabber Asn Method To Get IPs  
-         [13] Generator Random IPS 
-         [14] Remove Duplicate From List 
-         [15] Shell/Mailer Finder  
-         [16] Shell Scaner  
-         [17] Auto Exploit Cookies BlueMail 
-         [18] Auto Check Bluemail sites/ip  
-         [19] Auto Check Laravel + Apache Symfony + Wordpress site/ip 
-         [20] Auto Filter Mailist Hotmail, Yahoo, Gmail 
-         [21] Mass Check Sengrid Limit + Send Test In Your Mail 
-         [22] Mass Change User+Pass Aws + Send In Your Mail 
-         
-         [!] Your Options >
+<h1 align="center">Hi 👋, I'm AWN Gans</h1>
+<h3 align="center">A passionate Cyber Sec, Web Dev, Blog</h3>
+
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif">
+
+- 🔭 I’m currently working on **CMS vulnerability analysis**
+
+- 🌱 I’m currently learning **Back end**
+
+- 👯 I’m founder of **SundaXploit**
+
+- 💬 Ask me about **SEO**
+
+- ⚡ Fun fact **Hacking is art**
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=AkbarWiraN&show_icons=true&locale=en" alt="AkbarWiraN" /></p>
+<br><p>This is my repository tools for education only, trading and abusing this tool is prohibited. All authors of these tools are still maintained in it</p>
