@@ -167,27 +167,27 @@ def main():
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
         res = []
         try:
-            print("n  Please Wait Domain Loading ...")
+            print("n  Harap Tunggu Pemuatan Domain ...")
             url = f"https://dataset.domainsproject.org/{negara}/domain2multi-{singkatan}00.txt"
             r = requests.get(url, headers=headers).text
             soup = BeautifulSoup(r, 'html.parser')
             if '404 Not Found' in r:
-                print('CHANGING DATA...')
+                print('MENGUBAH DATA...')
                 url = f"https://dataset.domainsproject.org/{negara}/domain2multi-{singkatan}.txt"
                 r4 = requests.get(url, headers=headers).text
                 if '404 Not Found' in r4:
-                    print('MAYBE YOU INPUT WRONG COUNTRY / DOMAIN NAME PLEASE CHECK IT')
-                    input('Click Enter To Exit')
+                    print('MUNGKIN ANDA SALAH MASUKAN NEGARA/NAMA DOMAIN SILAHKAN DIPERIKSA')
+                    input('Klik Enter Untuk Keluar')
                     sys.exit()
                 soup = BeautifulSoup(r4, 'html.parser')
                 print(r4)
-                print("Saved Resultt ...")
+                print("Hasil Tersimpan ...")
                 time.sleep(6)
                 open( "Pegasus1337/" + negara + ".txt", "a" ).write( r + "\n" )
 
             else:
                 print(r)
-                print("Saved Resultt ...")
+                print("Hasil Tersimpan ...")
                 time.sleep(6)
                 open( "Pegasus1337/" + negara + ".txt", "a" ).write( r + "\n" )
         except:
@@ -224,7 +224,7 @@ def main():
         for line in maintance.splitlines():
             print("".join(colors[random.randint(1, len(colors)-1)] + vcolor( line ) ))
         time.sleep(0.05)
-        input('Click Enter To Exit')
+        input('Klik Enter Untuk Keluar')
         return 0
         if os.path.exists("Pegasus1337"): pass
         else: 
@@ -259,7 +259,7 @@ def main():
         for line in maintance.splitlines():
             print("".join(colors[random.randint(1, len(colors)-1)] + vcolor( line ) ))
         time.sleep(0.05)
-        input('Click Enter To Exit')
+        input('Klik Enter Untuk Keluar')
         return 0
         
         
@@ -348,8 +348,8 @@ def main():
                     zz.map(cekblue, inputlist)
 
                 t2 = time.perf_counter()
-                print(f'MultiThreaded Code Took:{t2 - t1} seconds')
-                print('Script Already Done')
+                print(f'Kode MultiThreaded Diambil:{t2 - t1} seconds')
+                print('Script Sudah Selesai')
             except:
                 pass
 
@@ -401,7 +401,7 @@ def main():
                         f.close()
 
 
-                print('[+] Succes filter Saved In Folder /Pegasus1337/ [+]' )
+                print('[+] Filter sukses Tersimpan Dalam Folder /Pegasus 1337/ [+]' )
 
 
             except Exception as e:
@@ -529,15 +529,15 @@ def main():
         for line in logo.splitlines():
                     print("".join(colors[random.randint(1, len(colors)-1)] + vcolor( line ) ))
                     time.sleep(0.05)
-        print(f"{Fore.BLUE}Example Country Name : germany , Domain Name : de")
-        negara = input(f"{Fore.WHITE}|{Fore.RED}INPUT{Fore.WHITE}| Country Name  : {Style.RESET_ALL}")
-        singkatan = input(f"{Fore.WHITE}|{Fore.RED}INPUT{Fore.WHITE}| Domain Name  : {Style.RESET_ALL}")
-        threadblue = input(f"{Fore.WHITE}|{Fore.RED}INPUT{Fore.WHITE}| Thread Auto Check Framework + Change To IPs : {Style.RESET_ALL}")
+        print(f"{Fore.BLUE}Contoh Nama Negara : indonesia , Nama Domain : id")
+        negara = input(f"{Fore.WHITE}|{Fore.RED}INPUT{Fore.WHITE}| Nama negara  : {Style.RESET_ALL}")
+        singkatan = input(f"{Fore.WHITE}|{Fore.RED}INPUT{Fore.WHITE}| Nama domain  : {Style.RESET_ALL}")
+        threadblue = input(f"{Fore.WHITE}|{Fore.RED}INPUT{Fore.WHITE}| Kerangka Pemeriksaan Otomatis Thread + Ubah Ke IP : {Style.RESET_ALL}")
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
         res = []
         try:
-            print("n  Please Wait Domain Loading ...")
+            print("n  Harap Tunggu Pemuatan Domain ...")
             url = f"https://dataset.domainsproject.org/{negara}/domain2multi-{singkatan}00.txt"
             r = requests.get(url, headers=headers).text
             soup = BeautifulSoup(r, 'html.parser')
@@ -971,7 +971,7 @@ def main():
         for line in logo.splitlines():
             print("".join(colors[random.randint(1, len(colors)-1)] + vcolor( line ) ))
             time.sleep(0.05)
-        print(f'[!] Make Sure U Input Thread Depends On The Ram And Core Because This Process Take A Lot Memory And CPU')
+        print(f'[!] Pastikan Thread Input U Tergantung Pada Ram Dan Core Karena Proses Ini Membutuhkan Banyak Memori Dan CPU')
         filename = input(f'{Fore.WHITE}[{Fore.RED}!{Fore.WHITE}]{Fore.WHITE} Input List: ')
         try:
             t1 = time.perf_counter()
